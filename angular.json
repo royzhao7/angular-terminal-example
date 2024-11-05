@@ -68,22 +68,6 @@
           },
           "defaultConfiguration": "development"
         },
-        "serve-ssr": {
-          "builder": "@angular-devkit/build-angular:server",
-          "options": {
-            "outputPath": "dist/angular-terminal-example",
-            "main": "src/main.server.ts",
-            "tsConfig": "tsconfig.app.json"
-          }
-        },
-        "server": {
-          "builder": "@angular-devkit/build-angular:server",
-          "options": {
-            "outputPath": "dist/angular-terminal-example/server",
-            "main": "src/main.server.ts",
-            "tsConfig": "tsconfig.server.json"
-          }
-        },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n"
         },
