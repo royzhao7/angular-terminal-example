@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:angular-terminal-example": "node dist/angular-terminal-example/server/server.mjs"
+    "serve:ssr:angular-terminal-example": "node dist/angular-terminal-example/server/server.mjs",
+    "dev:ssr": "ng run angular-terminal-example:serve-ssr"
   },
   "private": true,
   "dependencies": {
